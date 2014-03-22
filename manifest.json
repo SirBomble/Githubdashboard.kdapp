@@ -1,0 +1,43 @@
+{
+  "experimental": false,
+  "background": false,
+  "hiddenHandle": false,
+  "forceUpdate": false,
+  "behavior": "application",
+  "version": "0.1",
+  "title": "Github Dashboard",
+  "name": "Github Dashboard",
+  "identifier": "com.koding.apps.githubdashboard",
+  "path": "~/Applications/Githubdashboard.kdapp",
+  "homepage": "joshumax.kd.io/githubdashboard",
+  "author": "Josh Max",
+  "authorNick": "joshumax",
+  "repository": "git://github.com/joshumax/githubdashboard.kdapp.git",
+  "description": "Research users and clone GitHub repositories directly to your VM. Updated from /f/GitHubDashboard.",
+  "category": "web-app",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./app/settings.coffee",
+          "./app/core.coffee",
+          "./app/models.coffee",
+          "./app/views.coffee",
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  },
+  "screenshots": [],
+  "menu": [],
+  "fileTypes": []
+}

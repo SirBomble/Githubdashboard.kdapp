@@ -1,0 +1,137 @@
+/* Dashboard CSS */
+
+.github-dashboard {
+  background-color: white;
+}
+
+.github-dashboard header figure {
+  background: url(data:image/png;base64,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DsMBx2+oZAAABOlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuMS4yIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpSZXNvbHV0aW9uVW5pdD4xPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICAgICA8dGlmZjpDb21wcmVzc2lvbj41PC90aWZmOkNvbXByZXNzaW9uPgogICAgICAgICA8dGlmZjpYUmVzb2x1dGlvbj40Nzk5LzUwPC90aWZmOlhSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpZUmVzb2x1dGlvbj40Nzk5LzUwPC90aWZmOllSZXNvbHV0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iPgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+MjEzPC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj41NzwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2Vs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
+);
+  width: 213px;
+  height: 44px;
+  background-position: center center;
+}
+
+.github-dashboard header .username {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.github-dashboard .repo-list,
+.github-dashboard .app-repo-list {
+  height: auto;
+}
+
+.github-dashboard .app-repo-list {
+  margin-top: 10px;
+}
+
+.github-dashboard .repo-list {
+  margin-top: -5px;
+}
+
+.github-dashboard .repo-item {
+  box-shadow: 0px 1px 3px #DDD;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  background: rgb(240,240,240);
+  background: -moz-linear-gradient(top,  rgba(240,240,240,1) 0%, rgba(225,225,225,1) 44%, rgba(218,218,218,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,240,240,1)), color-stop(44%,rgba(225,225,225,1)), color-stop(100%,rgba(218,218,218,1)));
+  background: -webkit-linear-gradient(top,  rgba(240,240,240,1) 0%,rgba(225,225,225,1) 44%,rgba(218,218,218,1) 100%);
+  background: -o-linear-gradient(top,  rgba(240,240,240,1) 0%,rgba(225,225,225,1) 44%,rgba(218,218,218,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(240,240,240,1) 0%,rgba(225,225,225,1) 44%,rgba(218,218,218,1) 100%);
+  background: linear-gradient(to bottom,  rgba(240,240,240,1) 0%,rgba(225,225,225,1) 44%,rgba(218,218,218,1) 100%);
+  
+  padding-right: 200px;
+}
+
+.github-dashboard .repo-item .install,
+.github-dashboard .repo-item .clone {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 150px;
+}
+
+.github-dashboard .app-repo-list .repo-item .clone {
+  top: 48px !important;
+}
+
+.github-dashboard .app-repo-list .repo-item img {
+  float: left;
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 128px;
+  height: 128px;
+}
+
+.github-dashboard .repo-item span.name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.github-dashboard .repo-item span.owner {
+  font-size: 12px;
+  font-style: italic;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.github-dashboard .repo-item code.description {
+  display: block;
+}
+
+.github-dashboard .repo-item code.clone-url {
+  -webkit-transition-duration: 200ms;
+  display: inline-block;
+  padding: 0 4px;
+  padding-bottom: 10px;
+  line-height: 24px;
+  background-color: #161616;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 2px 2px 0px 0px;
+  position: absolute;
+  bottom: -24px;
+  right: 10px;
+  opacity: 0;
+}
+
+.github-dashboard .repo-item:hover code.clone-url {
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-delay: 400ms;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+.github-dashboard .placeholder {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 22px;
+  color: #b9b9b9;
+  text-shadow: 0px 3px white;
+}
+
+.kdview.active .github-dashboard .scrollfade {
+  position: fixed;
+  width: 100%;
+  height: 25px;
+  z-index: 999;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+.kdview.kdhiddentab .github-dashboard .scrollfade {
+  display: none;
+}
